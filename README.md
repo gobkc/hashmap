@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-	hs := hashmap.NewHash()
+    hs := hashmap.NewHash()
     hs.Set("Alple", "123456")
     fmt.Println(hs.Get("Alple"))
 }
